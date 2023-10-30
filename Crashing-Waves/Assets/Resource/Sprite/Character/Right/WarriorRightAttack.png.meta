@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ff25a91c42589c243a2b80d0341c4513
+guid: 3d03832f3dca4424ab9ceaccbfd487a0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -102,7 +102,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -114,7 +114,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Windows Store Apps
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -129,7 +129,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WarriorUpHurt_0
+      name: WarriorRightAttack_0
       rect:
         serializedVersion: 2
         x: 0
@@ -143,14 +143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb978245cd01ab54da2b98dda5db38b8
-      internalID: 2075912172
+      spriteID: e53addb1eb4c687459c4b0ed8b5b2bce
+      internalID: -286127855
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WarriorUpHurt_1
+      name: WarriorRightAttack_1
       rect:
         serializedVersion: 2
         x: 48
@@ -164,14 +164,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 037f1220d22b11346ae3f9cc95e5d416
-      internalID: -493766198
+      spriteID: 5132bf17e4f00b841a38dbac2f5b662b
+      internalID: 1767759672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WarriorUpHurt_2
+      name: WarriorRightAttack_2
       rect:
         serializedVersion: 2
         x: 96
@@ -185,14 +185,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08388e4b0b6fad24b89e572f69e4c90d
-      internalID: 64031657
+      spriteID: 922f2733dde7f2944af3bb06fcccf47a
+      internalID: 1292820307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WarriorUpHurt_3
+      name: WarriorRightAttack_3
       rect:
         serializedVersion: 2
         x: 144
@@ -206,8 +206,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fda045a398daccf4da5bc8d27c67d3e1
-      internalID: -262595724
+      spriteID: 49edc1f3f32d5ba4c930f140e1a52496
+      internalID: 1374011545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorRightAttack_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef2712bfc15aea4cabb5ff1c7c78d87
+      internalID: 93852442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorRightAttack_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54e91c217e00a34290356bf81c6cff7
+      internalID: 775901213
       vertices: []
       indices: 
       edges: []
@@ -223,10 +265,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      WarriorUpHurt_0: 2075912172
-      WarriorUpHurt_1: -493766198
-      WarriorUpHurt_2: 64031657
-      WarriorUpHurt_3: -262595724
+      WarriorRightAttack_0: -286127855
+      WarriorRightAttack_1: 1767759672
+      WarriorRightAttack_2: 1292820307
+      WarriorRightAttack_3: 1374011545
+      WarriorRightAttack_4: 93852442
+      WarriorRightAttack_5: 775901213
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

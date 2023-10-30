@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ff25a91c42589c243a2b80d0341c4513
+guid: 8eda86522d7a814408e024a790292b79
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -102,7 +102,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -114,7 +114,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Windows Store Apps
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -129,7 +129,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WarriorUpHurt_0
+      name: WarriorUpAttack_0
       rect:
         serializedVersion: 2
         x: 0
@@ -143,14 +143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb978245cd01ab54da2b98dda5db38b8
-      internalID: 2075912172
+      spriteID: 0392ab5337195554f9ec3afe1816f975
+      internalID: -752051367
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WarriorUpHurt_1
+      name: WarriorUpAttack_1
       rect:
         serializedVersion: 2
         x: 48
@@ -164,14 +164,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 037f1220d22b11346ae3f9cc95e5d416
-      internalID: -493766198
+      spriteID: 46eafebb69e71864da6fbf6dcbeeb6b7
+      internalID: -256841225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WarriorUpHurt_2
+      name: WarriorUpAttack_2
       rect:
         serializedVersion: 2
         x: 96
@@ -185,14 +185,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08388e4b0b6fad24b89e572f69e4c90d
-      internalID: 64031657
+      spriteID: 272668d3465eb024bbb81cce8db76d7a
+      internalID: 687731665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WarriorUpHurt_3
+      name: WarriorUpAttack_3
       rect:
         serializedVersion: 2
         x: 144
@@ -206,8 +206,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fda045a398daccf4da5bc8d27c67d3e1
-      internalID: -262595724
+      spriteID: adabecc7c2e31b54f8a681f17a77171e
+      internalID: 1517054386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorUpAttack_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a7b70fb0c71c14d895234923344564
+      internalID: -2135820974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorUpAttack_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9b7215d4beede4b8855dddedff53e7
+      internalID: 1677696360
       vertices: []
       indices: 
       edges: []
@@ -223,10 +265,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      WarriorUpHurt_0: 2075912172
-      WarriorUpHurt_1: -493766198
-      WarriorUpHurt_2: 64031657
-      WarriorUpHurt_3: -262595724
+      WarriorUpAttack_0: -752051367
+      WarriorUpAttack_1: -256841225
+      WarriorUpAttack_2: 687731665
+      WarriorUpAttack_3: 1517054386
+      WarriorUpAttack_4: -2135820974
+      WarriorUpAttack_5: 1677696360
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
