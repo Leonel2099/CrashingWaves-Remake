@@ -12,4 +12,8 @@ public class SpecialAttackState : IPlayerState
         }
     }
 
+    public void SufferDamage(Player player)
+    {
+        throw new System.NotImplementedException();
+    }
 }

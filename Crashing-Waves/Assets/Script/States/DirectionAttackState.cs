@@ -22,4 +22,9 @@ public class DirectionAttackState : IPlayerState
             player.Animator.SetBool(direction, false);
         }
     }
+
+    public void SufferDamage(Player player)
+    {
+        throw new System.NotImplementedException();
+    }
 }
