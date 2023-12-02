@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface IMoveDirection
+public interface IMoveEnemy
 {
-    Vector2 GetMoveVector(string direction);
+    void Move();
 }
