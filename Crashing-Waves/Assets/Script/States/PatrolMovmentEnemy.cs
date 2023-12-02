@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PatrolMovementEnemy : IMoveEnemy
@@ -9,7 +7,7 @@ public class PatrolMovementEnemy : IMoveEnemy
     private Transform _transform;
     private Animator animator;
     private Transform[] breakpoints;
-    private int currentPatrolIndex = 0;
+    private int PatrolIndex = 0;
 
     public PatrolMovementEnemy(float speed, Transform transform, Animator animator, Transform[] breakpoints, string direction)
     {
@@ -33,13 +31,13 @@ public class PatrolMovementEnemy : IMoveEnemy
 
     private void MoveToPatrolPoint()
     {
-        _transform.position = Vector2.MoveTowards(_transform.position, breakpoints[currentPatrolIndex].position, speed * Time.deltaTime);
+        _transform.position = Vector2.MoveTowards(_transform.position, breakpoints[PatrolIndex].position, speed * Time.deltaTime);
 
         // Si el enemigo alcanza el breackpoint actual, ataca
-        if (Vector2.Distance(_transform.position, breakpoints[currentPatrolIndex].position) < 0.1f)
+        if (Vector2.Distance(_transform.position, breakpoints[PatrolIndex].position) < 0.1f)
         {
             speed = 0;
-            animator.SetFloat("speed",speed);
+            animator.SetFloat("speed", speed);
         }
     }
 }

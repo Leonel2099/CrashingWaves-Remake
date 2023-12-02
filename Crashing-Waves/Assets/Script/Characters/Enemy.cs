@@ -18,4 +18,9 @@ public class Enemy : MonoBehaviour
     {
         _movementStrategy.Move();
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        _playerMoveAnim.SetBool("Death", true);
+
+    }
 }
